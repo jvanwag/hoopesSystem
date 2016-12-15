@@ -1,22 +1,28 @@
+body {
+  width:100%;
+}
 .mainTopHeader {
   text-align: center;
 }
 .mainFooter {
-  text-align: center;
   width: 100%;
   background-color: #4b4b4b;
   height: 50px;
   position:absolute;
   bottom:0;
   padding: 25px;
+  /*display: flex;
+  justify-content: space-between;;*/
 }
 .copyright {
+  display: inline-block;
+  position: absolute;
+  left:50px;
   color: white;
-  text-align: left;
 
 }
 .bottomFootImg {
-  margin:auto;
-  position: relative;
-  bottom:0;
+  display: inline-block;
+  float:right;
+  margin-right: 50px;
 }
