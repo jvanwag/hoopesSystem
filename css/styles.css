@@ -1,7 +1,31 @@
 body {
   width:100%;
+  font-family: helvetica;
 }
 .mainTopHeader {
+  text-align: center;
+}
+.headerbar {
+  width:100%;
+  background-color: #9e809a;
+  height: 5px;
+}
+.mainbackground {
+  background-image: url('../img/mtnbackground.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height:56vh;
+  padding-top: 100px;
+}
+.loginform {
+text-align: center;
+font-size: 25px;
+}
+#logininput {
+  font-size: 25px;
+  margin: 5px;
   text-align: center;
 }
 .mainFooter {
@@ -11,8 +35,6 @@ body {
   position:absolute;
   bottom:0;
   padding: 25px;
-  /*display: flex;
-  justify-content: space-between;;*/
 }
 .copyright {
   display: inline-block;

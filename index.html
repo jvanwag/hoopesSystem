@@ -8,19 +8,25 @@
   <body>
     <header class="mainTopHeader">
       <img src="img/header_logo.png">
+
     </header>
-    <section class="loginform cf">
+    <div class="headerbar">
+    </div>
+        <div class="mainbackground">
+    <section class="loginform">
+
 <form name="login" action="index_submit" method="get" accept-charset="utf-8">
-    <ul>
-        <li><label for="usermail">Email</label>
-        <input type="email" name="usermail" placeholder="yourname@email.com" required></li>
-        <li><label for="password">Password</label>
-        <input type="password" name="password" placeholder="password" required></li>
+    <ul style="list-style-type:none;">
         <li>
-        <input type="submit" value="Login"></li>
+        <input id="logininput" type="text" name="username" placeholder="username" required></li>
+        <li>
+        <input id="logininput" type="password" name="password" placeholder="password" required></li>
+        <li>
+        <input id="logininput" type="submit" value="Login"></li>
     </ul>
 </form>
 </section>
+</div>
 <footer class="mainFooter">
  <p class="copyright">
    ©2016 Hoopes Events. All rights reserved.
