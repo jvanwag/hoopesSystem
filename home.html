@@ -6,6 +6,12 @@
     <title></title>
   </head>
   <body>
+    <!-- <script type="text/javascript">
+      function toggleMenu() {
+        document.getElementById('#lMenu').style.display = "block";
+
+      }
+    </script> -->
     <header class="mainTopHeader">
       <img src="img/header_logo.png">
 
@@ -28,8 +34,14 @@
         </a>
       </div>
     </div>
-    <div class="leftMenu">
+    <div class="homeBody">
+    <div class="leftMenu" id="lMenu">
+      <button id="leftMenuButI" onclick="document.getElementById('lMenu').style.display = 'none'; document.getElementById('leftMenuButO').style.display ='block'">
+        </button>
     </div>
+    <button id="leftMenuButO" onclick="document.getElementById('lMenu').style.display = 'block'; document.getElementById('leftMenuButO').style.display ='none'">
+      </button>
+  </div>
         <!-- <div class="mainbackground">
 
 </div> -->
